@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.mobile_menu_bar:before{
+   content: " ";
+    font-size: 32px;
+    position: relative;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.menu-item a {
+    font-weight: 300;
+}
+
+.nav .font--bold {
+  font-weight: bold;
+}
+
+#top-menu-nav ul li a {
+  font-size: 14px;
+  color: #2E54C7;
+}
+
+#top-menu-nav ul li .login {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+#top-menu-nav ul li .login:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  opacity: 1;
+  color: white;
+}
+
+
+.nav li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.nav .login-li {
+  display: inline-block;
+  padding: 0px;
+}
+
+@media only screen and (max-width: 980px) {
+  .nav li {
+    display: none;
+    gap: 15px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .nav .login-li .login {
+    display: none;
+    gap: 15px;
+  }
+}
+
+
+
+.et_mobile_menu li a {
+  color: blue;
+}
+
+.et_mobile_menu li .login {
+  color: white;
+}
+
+.et_header_style_left #et-top-navigation nav>ul>li>a {
+  /* padding-bottom:33px; */
+}
+
+.et_header_style_left #et-top-navigation nav>ul>li>a {
+  padding: 0;
+}
+
+.et_header_style_left #et-top-navigation nav>ul>li> .login {
+  padding: 8px 16px;
+}
+
+.et_mobile_menu li a {
+ padding: 10px 10px;
+}
+
+.current-menu-item a {
+  font-weight: 700;
+}
+.et_pb_toggle_title:before {
+  content: url('./down-arrow-svgrepo-com.svg');
+  position: absolute; 
+  right: 0;
+  font-size: 16px;
+  color: #ccc;
+  top: 50%;
+  margin-top: -0.5em;
+}
+
+.et_pb_toggle_open .et_pb_toggle_title:before {
+  right: 0;
+  left: auto;
+}
+
+.et_pb_toggle_open .et_pb_toggle_title:before {
+  content: url('./up-arrow-svgrepo-com.svg');
+  background-repeat: no-repeat;
+}
+
+
+.about-div {
+  background-size: contain;
+  background-position: center top;
+  background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/hosting-company-12.png),linear-gradient(180deg,#eef9ff 0%,#ffffff 100%)!important;
+}
